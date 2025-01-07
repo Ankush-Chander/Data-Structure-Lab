@@ -57,7 +57,7 @@ Refer [modular code](../code/Lecture2/modular)
 
 
 ---
-![](images/modular_diagram.jpeg)
+![](../images/modular_diagram.jpeg)
 
 ---
 #### Multi-file compilation
