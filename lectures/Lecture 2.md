@@ -56,7 +56,7 @@ C++ like C supports C"s notion of separate compilation. This can be used to orga
 
 
 ---
-![](images/modular_diagram.jpeg)
+![](../images/modular_diagram.jpeg)
 #### Object Oriented Programming
 
 ---
