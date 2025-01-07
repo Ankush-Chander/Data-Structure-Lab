@@ -1,24 +1,20 @@
 ---
 delivery date:
   - "[[2025-01-02]]"
+  - "[[2025-01-07]]"
 ---
 
 #### Agenda
 - Why study data structures?
 - Game plan
-- revising compilation process
+- Compilation process(revision)
 
 ---
 #### Todos: 
 - [ ] Join [classroom](https://classroom.google.com/u/1/c/NzIyNTQ2OTM4OTM2) (code: eskvmjp)
 - [ ] Fill introductory survey
 ---
-#### Why data structures?
-- **Efficient Problem-Solving:** Choice of data structures makes certain operations more efficient while others difficult(trade offs).
-- **Optimizing Resources:** Using the right data structure can significantly reduce the time and space complexity of a program.
-- **Foundations for Algorithms:** Choice of data structures allows or limits the algorithms that can be applied on a problem.  
-[1](https://kidsmoralstories.blogspot.com/2017/10/the-fox-and-crane-short-story.html)
----
+
 #### Where are we?
 ![img](https://img.freepik.com/premium-photo/travel-concept-map-needle-with-marked-place-compass-point-map-routes_494741-63057.jpg?w=1060)
 
@@ -52,7 +48,13 @@ delivery date:
 	- Containers
 - Follow IT205
 ---
-## Compilation process
+#### Why data structures?
+- **Efficient Problem-Solving:** Choice of data structures makes certain operations more efficient while others difficult(trade offs).
+- **Optimizing Resources:** Using the right data structure can significantly reduce the time and space complexity of a program.
+- **Foundations for Algorithms:** Choice of data structures allows or limits the algorithms that can be applied on a problem.  
+[1](https://kidsmoralstories.blogspot.com/2017/10/the-fox-and-crane-short-story.html)
+---
+#### Compilation process
 
 Programs are translated by other programs into different forms:
 ```cpp
@@ -122,13 +124,17 @@ g++ main.cpp -o main
 #### Entry point 
 The entry point of a C++ program is the function where execution starts. This is typically the `main function`. The main function has a special significance and specific rules regarding its declaration, return type, and parameters.
 
-**Parameters**  
-*argc (Argument Count):* An integer representing the number of command-line arguments passed to the program, including the program's name.  
-*argv (Argument Vector):* An array of C-strings (char*) representing the actual arguments. argv[0] is the name of the program, and argv[1] through argv[argc-1] are the additional arguments.
+---
 
+**Parameters**  
+- *argc (Argument Count):* An integer representing the number of command-line arguments passed to the program, including the program's name.  
+
+- *argv (Argument Vector):* An array of C-strings (char*) representing the actual arguments. argv[0] is the name of the program, and argv[1] through argv[argc-1] are the additional arguments.
+
+---
 **Return Type**  
-The return type of main is int, which allows the program to return a status code to the operating system.  
-By convention:  
+- The return type of main is int, which allows the program to return a status code to the operating system.  
+- By convention:  
 return 0; indicates successful execution.  
 Non-zero values indicate errors or abnormal termination.
 
