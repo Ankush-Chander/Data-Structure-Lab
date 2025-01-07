@@ -5,7 +5,8 @@
 - Layered Architecture
 - Programming paradigms
 	- Procedural vs Modular vs OOP
-- 
+
+
 ---
 ### Layered architecture
 ![](https://github.com/Ankush-Chander/Data-Structure-Lab/raw/lecture2/images/layered_architecture.png)
@@ -98,11 +99,12 @@ g++ main.cpp vector2D.cpp -o vector_program
 2. Code reuse
 ---
 #### Object Oriented Programming
-Refer code: [[../code/Lecture2/oop]]
 
 ---
-#### Data organization
+#### Information organization
 ![](https://www.scaler.com/topics/images/difference-between-structure-and-class_Thumbnail.webp)
+---
+#### Code reuse
 ---
 #### References
 1. [Chapter 3: C++ Programming Language - Bjarne Stroustrup]()
