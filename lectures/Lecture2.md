@@ -8,7 +8,7 @@
 - 
 ---
 ### Layered architecture
-![](images/layered_architecture.png)
+![](../images/layered_architecture.png)
 ---
 ### Themes of this course
 
