@@ -72,7 +72,7 @@ C++ like C supports C"s notion of separate compilation. This can be used to orga
 4. **Linker** takes multiple object files and generate a single executable file (test.o => test.out)
 
 ---
-![](../images/linker.png)
+![](https://github.com/Ankush-Chander/IT603-notes/raw/main/lectures/images/linker.png)
 Linker positioned in compilation process.  
 Pic credits: CSAPP
 
@@ -99,13 +99,14 @@ g++ main.cpp vector2D.cpp -o vector_program
 2. Code reuse
 ---
 #### Object Oriented Programming
+Refer [[../code/Lecture2/oop]]
 
 ---
 #### Information organization
 ![](https://www.scaler.com/topics/images/difference-between-structure-and-class_Thumbnail.webp)
 ---
 #### Code reuse
+
 ---
 #### References
 1. [Chapter 3: C++ Programming Language - Bjarne Stroustrup]()
-2. 
