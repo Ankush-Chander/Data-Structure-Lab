@@ -6,7 +6,7 @@ delivery date:
 #### Agenda
 - Why study data structures?
 - Game plan
-- revising compilation process
+- Compilation process(revision)
 
 ---
 #### Todos: 
@@ -52,7 +52,7 @@ delivery date:
 	- Containers
 - Follow IT205
 ---
-## Compilation process
+#### Compilation process
 
 Programs are translated by other programs into different forms:
 ```cpp
@@ -122,13 +122,17 @@ g++ main.cpp -o main
 #### Entry point 
 The entry point of a C++ program is the function where execution starts. This is typically the `main function`. The main function has a special significance and specific rules regarding its declaration, return type, and parameters.
 
-**Parameters**  
-*argc (Argument Count):* An integer representing the number of command-line arguments passed to the program, including the program's name.  
-*argv (Argument Vector):* An array of C-strings (char*) representing the actual arguments. argv[0] is the name of the program, and argv[1] through argv[argc-1] are the additional arguments.
+---
 
+**Parameters**  
+- *argc (Argument Count):* An integer representing the number of command-line arguments passed to the program, including the program's name.  
+
+- *argv (Argument Vector):* An array of C-strings (char*) representing the actual arguments. argv[0] is the name of the program, and argv[1] through argv[argc-1] are the additional arguments.
+
+---
 **Return Type**  
-The return type of main is int, which allows the program to return a status code to the operating system.  
-By convention:  
+- The return type of main is int, which allows the program to return a status code to the operating system.  
+- By convention:  
 return 0; indicates successful execution.  
 Non-zero values indicate errors or abnormal termination.
 
