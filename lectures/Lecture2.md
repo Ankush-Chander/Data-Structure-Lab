@@ -8,7 +8,7 @@
 - 
 ---
 ### Layered architecture
-![](images/layered_architecture.png)
+![](https://github.com/Ankush-Chander/Data-Structure-Lab/raw/lecture2/images/layered_architecture.png)
 ---
 ### Themes of this course
 
@@ -57,7 +57,7 @@ Refer [modular code](../code/Lecture2/modular)
 
 
 ---
-![](images/modular_diagram.jpeg)
+![](https://github.com/Ankush-Chander/Data-Structure-Lab/raw/lecture2/images/modular_diagram.jpeg)
 
 ---
 #### Multi-file compilation
@@ -93,11 +93,16 @@ g++ main.o vector2D.o -o vector_program
 g++ main.cpp vector2D.cpp -o vector_program 
 ```
 ---
-
+#### Scope of improvement(2)
+1. Information organisation
+2. Code reuse
+---
 #### Object Oriented Programming
+Refer code: [[../code/Lecture2/oop]]
 
 ---
-
+#### Data organization
+![](https://www.scaler.com/topics/images/difference-between-structure-and-class_Thumbnail.webp)
 ---
 #### References
 1. [Chapter 3: C++ Programming Language - Bjarne Stroustrup]()
