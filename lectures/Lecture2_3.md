@@ -99,7 +99,7 @@ g++ main.cpp vector2D.cpp -o vector_program
 2. Code reuse
 ---
 #### Object Oriented Programming
-Refer [[../code/Lecture2/oop]]
+Refer [oop code](../code/Lecture2/oop)
 
 ---
 #### Information organization
