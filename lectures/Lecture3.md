@@ -171,4 +171,4 @@ public:
 ```
 ---
 #### References
-1. 
+1. [Chapter 16: The C++ Programming Language [4th Edition] - Bjarne Stroustrup](https://github.com/unixzilla/materials/blob/master/The%20C%2B%2B%20Programming%20Language%20%5B4th%20Edition%5D%20-%20Bjarne%20Stroustrup.pdf)
