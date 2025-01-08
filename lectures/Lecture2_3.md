@@ -1,3 +1,8 @@
+---
+delivery date:
+  - "[[2025-01-07]]"
+---
+
 #### Quick recap
 - Compilation Process
 ---
