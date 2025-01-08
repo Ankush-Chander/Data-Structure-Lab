@@ -7,7 +7,7 @@ Content for Data structure labs
   - Why study data structures?
   - Game plan
   - Compilation process(revision)
-2.  [Lecture 2_3(in progress)](lectures/Lecture2_3.md)
+2.  [Lecture 2](lectures/Lecture2_3.md)
   - Layered Architecture
   - Programming paradigms
     - Procedural vs Modular vs OOP
@@ -15,3 +15,9 @@ Content for Data structure labs
       - Namespaces
       - multifile compilation
       - Classes  
+3. [Lecture 3](lectures/Lecture3.md)
+  - Anatomy of a class
+  - Inheritance
+  - Data encapsulation
+  - Operator overloading
+  - Friend functions 
