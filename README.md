@@ -21,3 +21,8 @@ Content for Data structure labs
   - Data encapsulation
   - Operator overloading
   - Friend functions 
+4. [Lecture 4](lectures/Lecture4.md)
+  - Dynamic memory allocation
+5. [Lecture 5](lectures/Lecture5.md)
+ - Function overloading
+ - Function templates
