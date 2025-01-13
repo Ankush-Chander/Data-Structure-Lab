@@ -1,5 +1,6 @@
 ---
 delivery date:
+  - "[[2025-01-09]]"
 ---
 ### Quick recap
 - Dynamic memory allocation
