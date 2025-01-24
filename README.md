@@ -26,3 +26,7 @@ Content for Data structure labs
 5. [Lecture 5](lectures/Lecture5.md)
  - Function overloading
  - Function templates
+6. [Lecture 6](lectures/Lecture6.md)
+ - Arrays
+ - Multidimensional arrays
+ - Dynamic arrays
