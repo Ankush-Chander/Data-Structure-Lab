@@ -40,6 +40,10 @@ refer [lecture 5](../lectures/Lecture5)
 parameterize them so that they work for a variety of suitable types and data structures.
 
 ---
+#### Class templates
+Class templates in C++ are a way to implement generic programming. They allow you to define a class that can **work with multiple data types, by replacing the data type with a template parameter**.
+
+---
 #### Declaration of class template
 ```cpp
 template<typename T>
@@ -103,4 +107,60 @@ Array<int, 10> intArray; // Size is set to 10
 Array<double, 5> doubleArray; // Size is set to 5
 ```
 ---
+#### Class instantiation
+1. For class templates, only those member functions that are called are instantiated.
+ 
+```c++
+#include <iostream>
+// A simple class template
+template <typename T>
+class Calculator {
+public:
+// Method that adds two numbers
+T add(T a, T b) {
+return a + b;
+}
+// Method that subtracts two numbers
+T subtract(T a, T b) {
+return a - b;
+}
+// Method that multiplies two numbers
+T multiply(T a, T b) {
+return a * b;
+}
+// Method that divides two numbers
+T divide(T a, T b) {
+return a / b;
+}
+};
+```
+
+```c++
+int main() {
+
+Calculator<int> intCalc;
+
+// Only 'add' and 'subtract' methods are called
+
+std::cout << "Addition: " << intCalc.add(5, 3) << std::endl;
+
+std::cout << "Subtraction: " << intCalc.subtract(5, 3) << std::endl;
+
+return 0;
+}
+```
+---
+#### Compiler Behavior:
+
+- **Code Instantiation:**  When compiling, the C++ compiler analyzes which member functions are being used with the given type `int` and **generates machine code only for these functions** (`add` and `subtract` in this example).
+
+- **Efficiency:** This selective instantiation helps reduce the binary size and improve the efficiency of the compiled program because unused methods are not included.
+---
+Convert `vectorInt` class to vector class template  
 Refer vector_template.cpp
+
+---
+
+#### References
+1. [Chapter 2 - C++ templates - Complete guide](https://github.com/fusying-hwang/books/blob/main/C%2B%2B%20Templates%20The%20Complete%20Guide(2nd).pdf)
+2. [CppCon2021-back_to_basics_templates_part_1__bob_steagall__cppcon_2021.pdf (optional)](https://github.com/CppCon/CppCon2021/blob/main/Presentations/back_to_basics_templates_part_1__bob_steagall__cppcon_2021.pdf)
