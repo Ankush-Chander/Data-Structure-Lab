@@ -1,10 +1,10 @@
 #include <iostream>
 #include <stdexcept> // to use std::out_of_range
 
-
-class IntVector {
+template<typename T>
+class Vector {
 private:
-    int* data;           // Pointer to the first element of the vector
+    T* data;           // Pointer to the first element of the vector
     size_t size;       // Number of elements in the vector
     size_t capacity;   // Current allocated capacity of the vector
 
@@ -14,13 +14,13 @@ private:
     }
 
 public:
-    IntVector(){
+    Vector(){
         data = nullptr;
         size = 0;
         capacity = 0;
     } 
 
-    ~IntVector() {
+    ~Vector() {
         // deallocate underlying memory
     }
 
@@ -36,7 +36,7 @@ public:
 
     void reserve(size_t new_capacity) {
         if(new_capacity > capacity) {
-            int *new_data = new int[new_capacity];
+            T *new_data = new T [new_capacity];
             for(size_t i=0;i<size;i++){
                 new_data[i]=data[i];
             } 
@@ -101,7 +101,7 @@ public:
         size = 0;
     }
 
-    int operator[](size_t index) {
+    T operator[](size_t index) {
         if (index >= size) {
             throw std::out_of_range("Index out of range");
         }
@@ -110,13 +110,13 @@ public:
     }
 
     // disallow copy constructor and assignment operator
-    IntVector(const IntVector&) = delete;
-    IntVector& operator=(const IntVector&) = delete;
+    Vector(const Vector&) = delete;
+    Vector& operator=(const Vector&) = delete;
 };
 
 
 int main() {
-    IntVector vec;
+    Vector<int> vec;
     vec.push_back(0);
     vec.push_back(1);
     vec.push_back(2);
@@ -139,7 +139,7 @@ int main() {
     }
     std::cout << std::endl;
 
-    // IntVector<int> vec2 = vec;
+    // Vector<int> vec2 = vec;
     // std::cout << "After copy constructor: ";
     // for (size_t i = 0; i < vec2.getSize(); ++i) {
     //     std::cout << vec2[i] << " ";
@@ -149,5 +149,12 @@ int main() {
     vec.clear();
     std::cout << "After clear, size: " << vec.getSize() << std::endl;
     
+
+    Vector<float> vec2;
+    vec2.push_back(0.1);
+    vec2.push_back(0.2);
+    vec2.push_back(0.3);
+    std::cout << "Size: " << vec2.getSize() << std::endl;
+    std::cout << "Capacity: " << vec2.getCapacity() << std::endl;
     return 0;
 }
