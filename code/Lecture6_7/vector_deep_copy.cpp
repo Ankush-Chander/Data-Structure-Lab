@@ -110,9 +110,32 @@ public:
         return data[index];
     }
 
-    // disallow copy constructor and assignment operator
-    IntVector(const IntVector&) = delete;
-    IntVector& operator=(const IntVector&) = delete;
+    // allow deep copying
+    IntVector(const IntVector& other) {
+        size = other.size;
+        capacity = other.capacity;
+        data = new int[capacity];
+        for(size_t i=0;i<size;i++){
+            data[i] = other.data[i];
+        }
+    }
+
+    IntVector& operator=(const IntVector& other) {
+        // check for self-assignment
+        if (this != &other) {
+            size = other.size;
+            capacity = other.capacity;
+            // deallocate old memory
+            delete[] data;
+            // allocate new memory
+            data = new int[capacity];
+            // copy elements
+            for(size_t i=0;i<size;i++){
+                data[i] = other.data[i];
+            }
+        }
+        return *this;
+    }
 };
 
 

@@ -1,6 +1,7 @@
 ---
 delivery date:
   - "[[2025-01-28]]"
+  - "[[2025-01-31]]"
 ---
 ## Quick recap
 - Arrays
@@ -16,12 +17,12 @@ Which function is more generic?
 
 ```cpp
 // function 1
-int max(int a, int b){
+T max(T a, T b){
 return a-b>0? a:b;
 }
 
 // function 2
-int max(int a, int b){
+T max(T a, T b){
 return a>b? a:b;
 }
 
