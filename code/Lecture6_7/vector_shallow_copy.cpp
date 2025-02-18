@@ -129,7 +129,7 @@ int main() {
         std::cout << vec[i] << " ";
     }
     std::cout << std::endl;
-
+ 
     vec.erase(2);
     std::cout << "vec: After erase(2): ";
     for (size_t i = 0; i < vec.getSize(); ++i) {
@@ -138,14 +138,14 @@ int main() {
     std::cout << std::endl;
 
     IntVector vec2 = vec;
-    std::cout << "vec2: After copy constructor: " << std::endl;
+    std::cout << "vec2: After assignment constructor: ";
     for (size_t i = 0; i < vec2.getSize(); ++i) {
         std::cout << vec2[i] << " ";
     }
-
+    std::cout << std::endl;
     vec2.erase(1);
 
-    std::cout << "vec after erase(1) on vec2";
+    std::cout << "vec after erase(1) on vec2: ";
     for (size_t i = 0; i < vec.getSize(); ++i) {
         std::cout << vec[i] << " ";
     }

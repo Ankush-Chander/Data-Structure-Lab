@@ -22,6 +22,7 @@ public:
 
     ~Vector() {
         // deallocate underlying memory
+        delete[] data;
     }
 
     size_t getSize() const {
@@ -110,8 +111,8 @@ public:
     }
 
     // disallow copy constructor and assignment operator
-    Vector(const Vector&) = delete;
-    Vector& operator=(const Vector&) = delete;
+    // Vector(const Vector&) = delete;
+    // Vector& operator=(const Vector&) = delete;
 };
 
 
@@ -139,7 +140,7 @@ int main() {
     }
     std::cout << std::endl;
 
-    // Vector<int> vec2 = vec;
+    // Vector<int> vec_assign = vec;
     // std::cout << "After copy constructor: ";
     // for (size_t i = 0; i < vec2.getSize(); ++i) {
     //     std::cout << vec2[i] << " ";

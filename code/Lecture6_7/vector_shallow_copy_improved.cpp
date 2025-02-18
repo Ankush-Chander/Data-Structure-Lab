@@ -18,8 +18,8 @@ private:
     }
 
 public:
-    IntVector()
-        : sharedData(std::make_shared<SharedData>()) {
+    IntVector(){
+        sharedData = std::make_shared<SharedData>();
         sharedData->data = nullptr;
         sharedData->size = 0;
         sharedData->capacity = 0;

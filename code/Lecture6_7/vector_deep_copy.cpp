@@ -22,6 +22,7 @@ public:
 
     ~IntVector() {
         // deallocate underlying memory
+        delete[] data;
     }
 
     size_t getSize() const {
