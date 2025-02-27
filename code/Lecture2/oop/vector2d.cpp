@@ -2,9 +2,16 @@
 
 namespace VectorOperations {
 
+// constructor
 Vector2D::Vector2D(float x, float y){
     this->x = x;
     this->y=y;
+}
+
+// default constructor
+Vector2D::Vector2D(){
+    this->x = 0;
+    this->y = 0;
 }
 
 Vector2D Vector2D::addVectors(Vector2D v) {

@@ -11,7 +11,10 @@ public:
     float x, y;
 
     // declare constructor function 
-    Vector2D(float x = 0, float y = 0);
+    Vector2D(float x, float y);
+
+    // default constructor
+    Vector2D();
 
     // Function to add two vectors
     Vector2D addVectors(Vector2D v);
