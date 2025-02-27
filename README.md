@@ -30,3 +30,9 @@ Content for Data structure labs
  - Arrays
  - Multidimensional arrays
  - Dynamic arrays
+7. [Lecture 7](lectures/Lecture7.md)
+ - Generic Programming
+8. [Lecture 8](lectures/Lecture8.md)
+ - Copy Constructor and Assignment operator
+ - Deep copying vs Shallow copying
+ - Linked lists 
