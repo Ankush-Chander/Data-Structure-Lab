@@ -36,3 +36,8 @@ Content for Data structure labs
  - Copy Constructor and Assignment operator
  - Deep copying vs Shallow copying
  - Linked lists 
+9. [Lecture 9](resources/talk_back_to_basics_classic_stl__bob_steagall__cppcon_2021_1_compressed.pdf)
+  - STL
+  - Containers
+  - Iterators
+  - [Example code](code/Lecture9))
