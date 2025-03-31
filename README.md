@@ -41,3 +41,6 @@ Content for Data structure labs
   - Containers
   - Iterators
   - [Example code](code/Lecture9))
+10. [Lecture 10](lectures/Lecture10.md)
+  - Associative Containers
+  - [Example code](code/Lecture10)
