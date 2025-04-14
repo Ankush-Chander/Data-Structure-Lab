@@ -40,7 +40,10 @@ Content for Data structure labs
   - STL
   - Containers
   - Iterators
-  - [Example code](code/Lecture9))
+  - [Example code](code/Lecture9)
 10. [Lecture 10](lectures/Lecture10.md)
   - Associative Containers
   - [Example code](code/Lecture10)
+11. [Lecture 11](lectures/Lecture11.md)
+  - Heap/Priority Queue
+  - [Example code](code/Lecture11)
