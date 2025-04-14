@@ -1,6 +1,7 @@
 ---
 delivery date:
   - "[[2025-03-28]]"
+  - "[[2025-04-01]]"
 ---
 #### Quick recap
 1. Standard Template Library
