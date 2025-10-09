@@ -61,6 +61,7 @@ $$ \text{Left Child}(i) = 2i + 1$$
 For a node at index `i`, the index of its right child is:
 
 $$ \text{Right Child}(i) = 2i + 2$$
+
 ---
 #### Comparison with Binary search tree
 
